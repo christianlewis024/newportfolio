@@ -1,13 +1,81 @@
 .header {
+  font-family: "Source Sans Pro", sans-serif;
   display: flex;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(173, 172, 172),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgba(0, 0, 0, 0)
+  );
+  padding: 1%;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
 }
 .header .header__avatar {
   height: 120px;
   width: 120px;
+  margin-right: 2%;
 }
-.header__name {
+
+.header__left {
+  display: flex;
   border-right: 1px solid gray;
+  padding-right: 2%;
+  flex: 0.2;
+  align-items: center;
+}
+.header__intro {
+  flex: 0.4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.2em;
+}
+.header__intro > h2 {
+  font-weight: 600;
 }
 .header__contact {
+  flex: 0.2;
   border-left: 1px solid rgb(90, 90, 90);
+  font-weight: 800;
+}
+.header__contact .MuiSvgIcon-root {
+  font-size: 40px;
+}
+.header__contact a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__contactTop {
+  display: flex;
+  justify-content: space-around;
+}
+.header__contactBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__left {
+    margin-bottom: 4%;
+  }
+  .header__intro {
+    margin-bottom: 4%;
+  }
+  .header__contact {
+    padding-bottom: 4%;
+    margin-bottom: 6%;
+    border-bottom: 1px solid gray;
+  }
 }
