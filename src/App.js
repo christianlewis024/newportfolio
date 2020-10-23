@@ -1,11 +1,16 @@
+import React from "react"
 import './App.css';
-import ConwayBg from "./ConwayBg"
+import Header from "./Header"
+
 
 function App() {
   return (
     <div className="app">
-     <h1> Hello Friends</h1>
-     <ConwayBg/>
+     
+      
+    <Header/>
+   
+     
     </div>
   );
 }

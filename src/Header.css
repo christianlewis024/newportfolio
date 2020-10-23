@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+}
+.header .header__avatar {
+  height: 120px;
+  width: 120px;
+}
+.header__name {
+  border-right: 1px solid gray;
+}
