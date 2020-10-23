@@ -1,2 +1,3 @@
-# newportfolio
-a more recent version of my portfiolio 10-23-20
+# Christian Lewis Portfolio
+
+## Newest Version of my portfolio 10/23/20
