@@ -49,6 +49,10 @@
 .header__contact a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+}
+.header__contact .MuiSvgIcon-root {
+  cursor: pointer;
 }
 
 .header__contactTop {
@@ -60,7 +64,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 1%;
 }
 @media only screen and (max-width: 600px) {
   .header {

@@ -41,7 +41,7 @@ function Header() {
               </a>
               </div>
               <div className="header__contactBottom">
-              <MailIcon/>
+              <a href = "mailto: christianlewis024@gmail.com"><MailIcon/></a>
               <a href = "mailto: christianlewis024@gmail.com">ChristianLewis024@gmail.com</a>
               </div>
         </div>
