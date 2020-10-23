@@ -3,6 +3,10 @@ import {Avatar} from "@material-ui/core"
 import "./Header.css"
 import LocationIcon from "@material-ui/icons/LocationCity"
 import CheckMarkIcon from "@material-ui/icons/CheckBoxOutlined"
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import DescriptionIcon from '@material-ui/icons/Description';
+import MailIcon from '@material-ui/icons/Mail';
 function Header() {
     return (
         <div className="header">
@@ -14,7 +18,27 @@ function Header() {
             <h3><CheckMarkIcon/>Willing to relocate</h3>
         </div>
         <div className="header__intro">
-            <h4>I am a Full Stack Web Developer with strong experience in React and Firebase </h4>
+            <h2> Full Stack Web Developer with a passion for React and Firebase </h2>
+        </div>
+        <div className="header__contact">
+            <div className="header__contactTop">
+              <a
+                href="https://www.linkedin.com/in/christianlewis92/"
+                target="_blank"
+              >
+               <LinkedInIcon/>LinkedIn
+              </a>
+              <a href="https://docs.google.com/document/d/1jXyDu6_h0-v-LnQuj_WUyrBQ0rz8R5ahD5JsCPsDN6Q" target="_blank">
+               <DescriptionIcon/>Resume
+              </a>
+              <a href="https://github.com/christianlewis024" target="_blank">
+               <GitHubIcon/>Github
+              </a>
+              </div>
+              <div className="header__contactBottom">
+             
+              <a href = "mailto: christianlewis024@gmail.com"><MailIcon/>ChristianLewis024@gmail.com</a>
+              </div>
         </div>
         </div>
     )
