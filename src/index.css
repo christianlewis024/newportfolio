@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(207, 207, 207),
+    rgb(100, 99, 100)
+  );
+  font-family: "Faustina", serif;
+}
+
+.box {
+  display: inline-block;
+  border: none;
+
+  width: 15px;
+  height: 15px;
+  margin-left: 1px;
+  margin-bottom: 1px;
+}
+
+.off {
+  background-color: none;
+}
+
+.on {
+  background-color: #d6dadd;
+}
+
+.grid {
+  max-width: 100%;
+  max-height: 100%;
+  overflow-y: hidden;
+
+  position: absolute;
+
+  margin: auto;
+  overflow: hidden;
+  z-index: -1;
+}
