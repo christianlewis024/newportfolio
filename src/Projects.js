@@ -13,7 +13,7 @@ function Projects() {
             tech: "React, Css, Google Maps, AWS",
             deployed: "https://main.d2njpi9j1s76mb.amplifyapp.com/",
             github: "https://github.com/Lambda-School-Labs/Labs25-Human_Rights_First-TeamB-FE",
-            image: "https://i.ibb.co/sQsDTVg/siteSS.png"
+            image: "hrf.png"
         },
         {
             name: "API Mountain",
@@ -52,53 +52,53 @@ function Projects() {
             image: "darnazon.png"
         },
        {
-           name: "Slack Clone",
+           name: "Working Slack Clone",
            tech: "React & Firebase",
            deployed: "https://darnslack.netlify.app/",
            github: "https://github.com/christianlewis024/slack-clone",
            image: "darnslack.png",
         },
        {
-           name: "Ark Tracker",
-           tech: "React, Node, Heroku",
+           name: "Stat Tracker",
+           tech: "React, Node, CRUD Heroku",
            deployed: "https://arktracker.vercel.app/",
            github: "https://github.com/christianlewis024/arktracker",
            image: "arktracker.png",
         },
        {
-           name: "",
-           tech: "",
-           deployed: "",
-           github: "",
-           image: "",
+           name: "Twitter Clone",
+           tech: "React & Firebase",
+           deployed: "https://ditter.netlify.app/",
+           github: "https://github.com/christianlewis024/ditter",
+           image: "ditter.png",
         },
        {
-           name: "",
-           tech: "",
-           deployed: "",
-           github: "",
-           image: "",
+           name: "Facebook Clone",
+           tech: "React & Firebase",
+           deployed: "https://darnbook.netlify.app/",
+           github: "https://github.com/christianlewis024/darnbook",
+           image: "darnbook.png",
         },
        {
-           name: "",
-           tech: "",
-           deployed: "",
-           github: "",
-           image: "",
+           name: "Tinder Clone",
+           tech: "React & Firebase",
+           deployed: "https://dinderswipe.netlify.app/",
+           github: "https://github.com/christianlewis024/dinder",
+           image: "dinder.png",
         },
        {
-           name: "",
-           tech: "",
-           deployed: "",
-           github: "",
-           image: "",
+           name: "History Quiz",
+           tech: "HTML, CSS, Firebase",
+           deployed: "https://weeklyhistoryquiz.netlify.app/",
+           github: "https://github.com/christianlewis024/historyquizfinal",
+           image: "historyquiz.png",
         },
        {
-           name: "",
-           tech: "",
-           deployed: "",
-           github: "",
-           image: "",
+           name: "Instagram Clone",
+           tech: "React & Firebase",
+           deployed: "https://instadarn.netlify.app/",
+           github: "https://github.com/christianlewis024/instadarn",
+           image: "instadarn.png",
         },
     ])
     return (
@@ -127,7 +127,7 @@ function Projects() {
                <p className="projects__descriptionP">{bigProject.description}</p>
                </div>
                <br></br> 
-               <p className="projects__tech"><strong>Implemented with: {bigProject.tech}</strong></p>
+               <p className="projects__tech"><center><strong>Implemented with: {bigProject.tech}</strong></center></p>
 
              <div className="projects__links">
                 <div className="projects__github">

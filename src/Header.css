@@ -1,5 +1,6 @@
 .header {
   font-family: "Source Sans Pro", sans-serif;
+  z-index: 100;
   display: flex;
   background-image: linear-gradient(
     to bottom,
