@@ -20,110 +20,85 @@ function Projects() {
             description: "A group project that would allow us to track our favorite public APIs for small projects. Has an upvote and downvote, search, and authentication to create posts.",
             date: "Mar 2020",
             tech: "HTML, CSS, Javascript, Firebase, and Vue. ",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/sqnXk7Y/Screenshot-13.png"
+            deployed: "https://apimountain.netlify.app/",
+            github: "https://github.com/christianlewis024/apimountain",
+            image: "apimountain.png"
         },
         {
             name: "The Sphere",
             description: "A functional social media app with text posts or photo upload, user authentication, likes, chatrooms, and direct messaging",
             date: "Oct 2020",
-            tech: "React, Firebase CSS, Javascript",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/cvqd0ff/Screenshot-14.png" 
+            tech: "React, Firebase CSS, Material-UI",
+            deployed: "https://thesphere.netlify.app/",
+            github: "https://github.com/christianlewis024/sphere",
+            image: "sphere.png" 
         },
         {
             name: "Teacher's Website",
-            description: "A group project that would allow us to track our favorite public APIs for small projects. Has an upvote and downvote, search, and authentication to create posts.",
+            description: "A website for a teacher who needed more online presence during the COVID 19 pandemic. Has a blog that only logged in admins can post in. Any visitor can see posts. Implemented with HTML, CSS, JS, Materialize and Firebase for the backend and auth.",
             date: "Mar 2020",
-            tech: "HTML, CSS, Javascript, Firebase, and Vue. ",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/8PjqmNf/Screenshot-15.png" 
+            tech: "HTML, CSS, Javascript, Firebase",
+            deployed: "https://www.sciencewithmrslewis.com/",
+            github: "https://github.com/christianlewis024/chanelv2",
+            image: "https://i.ibb.co/nsGhJ5v/Screenshot-15.png"
         },
     ])
     const [smallProjects, setSmallProjects] = useState([
         {
-            name: "Human Rights First",
-            description: "Group project for mapping police brutality across the US. Worked on by 8 developers from front end, backend, and data science. ",
-            date: "Oct 1st 2020 - Sept 29th 2020",
-            tech: "React, Css, Google Maps, AWS",
-            deployed: "https://main.d2njpi9j1s76mb.amplifyapp.com/",
-            github: "https://github.com/Lambda-School-Labs/Labs25-Human_Rights_First-TeamB-FE",
-            image: "https://i.ibb.co/sQsDTVg/siteSS.png"
+            name: "Working Amazon Clone",
+            tech: "React, Firebase and Stripe",
+            deployed: "https://darnazon.netlify.app/",
+            github: "https://github.com/christianlewis024/darnazon",
+            image: "darnazon.png"
         },
-        {
-            name: "API Mountain",
-            description: "A group project that would allow us to track our favorite public APIs for small projects. Has an upvote and downvote, search, and authentication to create posts.",
-            date: "Mar 2020",
-            tech: "HTML, CSS, Javascript, Firebase, and Vue. ",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/sqnXk7Y/Screenshot-13.png"
+       {
+           name: "Slack Clone",
+           tech: "React & Firebase",
+           deployed: "https://darnslack.netlify.app/",
+           github: "https://github.com/christianlewis024/slack-clone",
+           image: "darnslack.png",
         },
-        {
-            name: "API Mountain",
-            description: "A group project that would allow us to track our favorite public APIs for small projects. Has an upvote and downvote, search, and authentication to create posts.",
-            date: "Mar 2020",
-            tech: "HTML, CSS, Javascript, Firebase, and Vue. ",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/sqnXk7Y/Screenshot-13.png"
+       {
+           name: "Ark Tracker",
+           tech: "React, Node, Heroku",
+           deployed: "https://arktracker.vercel.app/",
+           github: "https://github.com/christianlewis024/arktracker",
+           image: "arktracker.png",
         },
-        {
-            name: "API Mountain",
-            description: "A group project that would allow us to track our favorite public APIs for small projects. Has an upvote and downvote, search, and authentication to create posts.",
-            date: "Mar 2020",
-            tech: "HTML, CSS, Javascript, Firebase, and Vue. ",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/sqnXk7Y/Screenshot-13.png"
+       {
+           name: "",
+           tech: "",
+           deployed: "",
+           github: "",
+           image: "",
         },
-        {
-            name: "API Mountain",
-            description: "A group project that would allow us to track our favorite public APIs for small projects. Has an upvote and downvote, search, and authentication to create posts.",
-            date: "Mar 2020",
-            tech: "HTML, CSS, Javascript, Firebase, and Vue. ",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/sqnXk7Y/Screenshot-13.png"
+       {
+           name: "",
+           tech: "",
+           deployed: "",
+           github: "",
+           image: "",
         },
-        {
-            name: "API Mountain",
-            description: "A group project that would allow us to track our favorite public APIs for small projects. Has an upvote and downvote, search, and authentication to create posts.",
-            date: "Mar 2020",
-            tech: "HTML, CSS, Javascript, Firebase, and Vue. ",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/sqnXk7Y/Screenshot-13.png"
+       {
+           name: "",
+           tech: "",
+           deployed: "",
+           github: "",
+           image: "",
         },
-        {
-            name: "API Mountain",
-            description: "A group project that would allow us to track our favorite public APIs for small projects. Has an upvote and downvote, search, and authentication to create posts.",
-            date: "Mar 2020",
-            tech: "HTML, CSS, Javascript, Firebase, and Vue. ",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/sqnXk7Y/Screenshot-13.png"
+       {
+           name: "",
+           tech: "",
+           deployed: "",
+           github: "",
+           image: "",
         },
-        {
-            name: "API Mountain",
-            description: "A group project that would allow us to track our favorite public APIs for small projects. Has an upvote and downvote, search, and authentication to create posts.",
-            date: "Mar 2020",
-            tech: "HTML, CSS, Javascript, Firebase, and Vue. ",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/sqnXk7Y/Screenshot-13.png"
-        },
-        {
-            name: "API Mountain",
-            description: "A group project that would allow us to track our favorite public APIs for small projects. Has an upvote and downvote, search, and authentication to create posts.",
-            date: "Mar 2020",
-            tech: "HTML, CSS, Javascript, Firebase, and Vue. ",
-            deployed: "apimountain.netlify.app",
-            github: "github.com/christianlewis024/apimountain",
-            image: "https://i.ibb.co/CJMWV6k/Screenshot-15.png" 
+       {
+           name: "",
+           tech: "",
+           deployed: "",
+           github: "",
+           image: "",
         },
     ])
     return (
@@ -133,7 +108,11 @@ function Projects() {
               
             <div className="projects__project">
                 <div className="projects__imageContainer">
-                <img  className="projects__image" src={bigProject.image}/>
+
+                    <a href={bigProject.deployed} target="_blank">
+                    <img  className="projects__image" src={bigProject.image}/>
+                    </a>
+                
                 </div>
                   
             <div className="projects__container">
@@ -176,24 +155,43 @@ function Projects() {
             <div className="projects__smallProjects">
            {smallProjects.map(smallProject => (
               
-               <div className="projects__project">
-                   <img  className="projects__image" src={smallProject.image}/>
+              <div className="projects__project">
+                <div className="projects__imageContainer">
+
+                    <a href={smallProject.deployed} target="_blank">
+                    <img  className="projects__image" src={smallProject.image}/>
+                    </a>
+                
+                </div>
+                  
+            <div className="projects__container">
+                <br></br>    
                <h2>{smallProject.name}</h2>
-              
                
-               <p>Implemented with: {smallProject.tech}</p>
-               <div className="projects__links">
+
+              
+               <p className="projects__tech"><strong>Implemented with: {smallProject.tech}</strong></p>
+
+             <div className="projects__links">
+                <div className="projects__github">
                <a href={smallProject.github} target="_blank">
                <GitHubIcon/>Repo
               </a>
+              </div>
+              
+
+              <div className="projects__hosted">
               <a href={smallProject.deployed} target="_blank">
               <LanguageIcon/>Hosted
               </a>
+              
               </div>
-                  
+              
+              
+            </div>
+              </div>
 
-
-               </div>
+              </div>
 
            )) }
            </div>

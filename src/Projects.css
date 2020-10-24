@@ -13,16 +13,25 @@
   margin-bottom: 5%;
 }
 .projects__bigProjects img {
-  width: 100%;
-  height: 100%;
+  min-height: 220px;
+  max-height: 220px;
+  max-width: 100%;
   object-fit: contain;
 }
 
+.projects__image {
+  border: 1px solid white;
+}
+.projects__imageContainer:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
 .projects__bigProjects .projects__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(218, 213, 213);
+  border: 1px solid white;
 }
 .projects__description {
   height: 100px;
